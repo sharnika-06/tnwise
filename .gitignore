@@ -1,0 +1,41 @@
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Virtual environments
+venv/
+env/
+ENV/
+
+# PyInstaller build files
+build/
+dist/
+*.spec
+
+# PyInstaller temp files
+*.log
+*.toc
+*.pkg
+*.exe
+
+# VS Code settings
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.txt
+
+# Models (optional - ignore if large)
+*.pkl
+
+# Temporary files
+*.tmp
+
+# MediaPipe cache (optional)
+*.binarypb
+*.tflite
