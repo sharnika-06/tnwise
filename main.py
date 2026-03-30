@@ -69,6 +69,7 @@ def toggle_camera():
     else:
         if cap is not None:
             cap.release()
+            cap = None
         cv2.destroyAllWindows()
         print("Camera OFF")
 

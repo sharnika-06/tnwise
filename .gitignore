@@ -28,14 +28,14 @@ dist/
 Thumbs.db
 
 # Logs
-*.txt
+warn-main.txt
 
-# Models (optional - ignore if large)
+# Models (large files)
 *.pkl
 
 # Temporary files
 *.tmp
 
-# MediaPipe cache (optional)
+# MediaPipe cache
 *.binarypb
 *.tflite
